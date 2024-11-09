@@ -1,14 +1,10 @@
 {
   "id": "le_jlwffre",
   "name": "le_jlwffre",
-  "layouts": {
-    "default_layout": {
-      "name": "default_layout",
     "encoder": {
         "rotary": [
             {"pin_a": "D5", "pin_b": "D3"}
         ]
-    },
     "layouts": {
         "LAYOUT": {
             "layout": [
