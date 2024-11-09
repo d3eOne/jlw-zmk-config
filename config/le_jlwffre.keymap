@@ -141,7 +141,7 @@
         //│          │          │          │          │          │      │          │          │          │          │          │
            &kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &to 0            &kp KP_COMMA &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤      ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &kp ALT     &trans   &trans &kp N0     &kp PERIOD
+                                            &kp ALT     &trans    &trans &kp KP_NUMBER_0 &kp KP_PERIOD
         //                                 ╰──────────┴──────────╯      ╰──────────┴──────────╯
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
