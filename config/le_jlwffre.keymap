@@ -38,6 +38,33 @@
             flavor = "tap-preferred";
         };
 
+        combos {
+            compatible = "zmk,combos";
+            combo_esc {
+                timeout-ms = <50>;
+                key-positions = <0 1>;
+                bindings = <&kp ESC>;
+            };
+            combo_del {
+                timeout-ms = <50>;
+                key-positions = <8 9>;
+                bindings = <&kp DEL>;
+            };
+            combo_reset {
+                timeout-ms = <50>;
+                key-positions = <0 9>;
+                layers = <2>;
+                bindings = <&sys_reset>;
+            };
+            combo_boot {
+                timeout-ms = <50>;
+                key-positions = <5 20>;
+                layers = <2>;
+                bindings = <&bootloader>;
+            };
+        };
+    };
+
     macros {
         shifted: macro_shifted_kp {
             #binding-cells = <1>;
@@ -62,13 +89,6 @@
               <&as_ht MACRO_PLACEHOLDER MACRO_PLACEHOLDER>;
         };
     };
-        combos {
-            compatible = "zmk,combos";
-            combo_esc {
-                timeout-ms = <50>;
-                key-positions = <0 1>;
-                bindings = <&kp ESC>;
-        };
 
     keymap {
         compatible = "zmk,keymap";
