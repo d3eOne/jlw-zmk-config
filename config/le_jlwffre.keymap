@@ -62,8 +62,8 @@
         //│          │          │          │          │          │      │          │          │          │          │          │
              &none      &none      &none      &none      &none           &none      &none      &none      &none      &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤      ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  F1      │  F2      │  F3      │  F4      │  F5      │      │          │          │          │          │          │
-            &kp F1    &kp F2      &kp F3     &kp F4     &kp F5           &kp LEFT   &kp DOWN   &kp UP_ARROW &kp RIGHT &trans
+        //│          │          │          │          │          │      │          │          │          │          │          │
+            &trans    &trans       &trans     &trans     &trans          &kp LEFT   &kp DOWN   &kp UP_ARROW &kp RIGHT &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤      ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │      │          │          │          │          │          │
            &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_NXT &bt BT_PRV &trans    &kp PG_DN  &kp PG_UP
