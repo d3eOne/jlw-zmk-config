@@ -32,7 +32,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │      │  N       │  M       │ , <      │ . >      │ / ?      │
             &kp Z      &kp X      &kp C      &kp V      &kp B            &kp N      &kp M      &kp COMMA  &kp DOT   &mt RSHFT SLASH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤      ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &mt LCTRL LCMD  &lt 1 SPC    &lt 2 BACKSPACE &kp ENTER
+                                            &mt LCTRL LCMD  &lt 1 SPC &kp C_MUTE &lt 2 BACKSPACE &kp ENTER
         //                                 ╰──────────┴──────────╯      ╰──────────┴──────────╯
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -50,7 +50,7 @@
         //│          │          │          │          │          │      │          │          │          │          │          │
            &kp DELETE &kp LS(LG(S)) &kp LC(LS(R)) &kp C_AL_CALC &to 3    &trans     &trans     &trans     &kp PG_DN   &kp PG_UP
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤      ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                           &kp LC(LA(DELETE)) &trans     &trans     &trans
+                                           &kp LC(LA(DELETE)) &trans &trans &trans     &trans
         //                                 ╰──────────┴──────────╯      ╰──────────┴──────────╯
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -68,7 +68,7 @@
         //│          │          │          │          │          │      │          │          │          │          │          │
            &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_NXT &bt BT_PRV &trans    &kp PG_DN  &kp PG_UP
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤      ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &mo 4           &trans      &trans
+                                             &trans     &mo 4     &trans &trans      &trans
         //                                 ╰──────────┴──────────╯      ╰──────────┴──────────╯
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -86,7 +86,7 @@
         //│          │          │          │          │          │      │          │          │          │          │          │
            &kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &to 0            &kp KP_COMMA &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &kp KP_ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤      ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &kp LALT    &trans          &kp KP_NUMBER_0 &kp KP_DOT
+                                            &kp LALT    &trans    &trans &kp KP_NUMBER_0 &kp KP_DOT
         //                                 ╰──────────┴──────────╯      ╰──────────┴──────────╯
             >; 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -104,7 +104,7 @@
         //│          │          │          │          │          │      │          │          │          │          │          │
              &none      &none      &none      &none      &none             &none       &none      &none      &none      &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤      ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans          &trans      &trans
+                                             &trans     &trans    &trans &trans      &trans
         //                                 ╰──────────┴──────────╯      ╰──────────┴──────────╯
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
